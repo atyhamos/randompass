@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="style/index.css">
+    </head>
+    <body>
+        <h1>Generate a</h1>
+        <h1 id="green-header">random password</h1>
+        <p id="tagline">Never use an insecure password again.</p>
+        <button onclick="generatePasswords()">
+            <img src="images/Icon.png" id="icon">
+            <div id="button-text">Generate passwords</div>
+        </button>
+        <img src="images/Line-17.png" id="line">
+        <row class="row">
+            <input type="text" spellcheck="false" class="passwords" onclick="copy(0)" placeholder="...">
+            <input type="text" spellcheck="false" class="passwords" onclick="copy(1)" placeholder="...">   
+        </row>
+        <div class="row">
+            <input type="text" spellcheck="false" class="passwords" onclick="copy(2)" placeholder="...">
+            <input type="text" spellcheck="false" class="passwords" onclick="copy(3)" placeholder="...">
+        </div>
+        <script src="scripts/index.js"></script>
+    </body>
+    <footer>
+        <p>Just click to copy.</p>
+        <p>by Amos Tan</p>
+    </footer>
+</html>
